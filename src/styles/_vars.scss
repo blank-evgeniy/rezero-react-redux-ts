@@ -1,0 +1,19 @@
+//colors
+$color-primary: #dfdfdf;
+$color-secondary: #D2C3C3;
+
+//media
+$tablet: 1023px;
+$phone: 479px;
+
+//mixins
+@mixin mediaTablet {
+    @media screen and (max-width: $tablet){
+        @content;
+    }
+}
+@mixin mediaPhone {
+    @media screen and (max-width: $phone){
+        @content;
+    }
+}

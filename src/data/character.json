@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Subaru",
+        "sex": "male",
+        "race": "human",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "name": "Rem",
+        "sex": "female",
+        "race": "oni",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "name": "Ram",
+        "sex": "female",
+        "race": "oni",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "name": "Emilia",
+        "sex": "female",
+        "race": "half-elf",
+        "img": ""
+    },
+    {
+        "id": 5,
+        "name": "Beatrice",
+        "sex": "female",
+        "race": "spirit",
+        "img": ""
+    },
+    {
+        "id": 6,
+        "name": "Roswaal",
+        "sex": "male",
+        "race": "human",
+        "img": ""
+    },
+    {
+        "id": 7,
+        "name": "Reinhard ",
+        "sex": "male",
+        "race": "human",
+        "img": ""
+    },
+    {
+        "id": 8,
+        "name": "Ehidna",
+        "sex": "female",
+        "race": "human",
+        "img": ""
+    },
+    {
+        "id": 9,
+        "name": "Pandora",
+        "sex": "female",
+        "race": "unknown",
+        "img": ""
+    }
+]
