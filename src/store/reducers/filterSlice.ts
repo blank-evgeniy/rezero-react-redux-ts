@@ -1,8 +1,10 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 
+export type sexValues = "any" | "male" | "female";
+
 interface FilterState {
     search: string,
-    sex: "any" | "male" | "female",
+    sex: sexValues,
     races: string[],
 }
 

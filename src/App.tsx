@@ -1,6 +1,7 @@
 import { RouterProvider, createHashRouter } from 'react-router-dom'
 import Home from './pages/Home/Home';
-import CharacterList from './pages/CharactersList/CharacterList';
+import "./styles/global.scss"
+import Characters from './pages/CharactersList/Characters';
 
 const router = createHashRouter([
   {
@@ -9,7 +10,7 @@ const router = createHashRouter([
   },
   {
     path: "/characters",
-    element: <CharacterList/>,
+    element: <Characters/>,
   },
 
 ]);

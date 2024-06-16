@@ -1,0 +1,20 @@
+.pages-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    padding-top: 20px;
+
+    &__button{
+        border: none;
+        background: none;
+        color: white;
+        &:disabled {
+            color: #6b6b6b;
+        }
+    }
+
+    &__info{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,15 @@
+.search {
+    font-size: 1.5rem;
+    border:none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background-color: #8776C1;
+    height: 50px;
+    width: 100%;
+
+    &::placeholder {
+        color: rgb(193, 194, 194);
+    }
+}

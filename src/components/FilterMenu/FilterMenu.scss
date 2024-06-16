@@ -1,0 +1,33 @@
+.filter-menu {
+    position: relative;
+    width: 170px;
+    color: black;
+    display: inline-block;
+    font-size: 1.25rem;
+
+    &__btn {
+        height: 50px;
+        width: 170px;
+        font-size: 1.5rem;
+        border-radius: 10px 0px 0px 10px;
+        border: none;
+    }
+
+    &__section {
+        position: absolute;
+        top: 60px;
+        padding: 10px 5px;
+        background-color: white;
+        width: 170px;
+        border-radius: 10px;
+        display: flex;
+        transform: scale(0);
+        transition: transform 0.2s ease-in-out;
+        flex-direction: column;
+
+        &_show {
+            transform: scale(1);
+        }
+
+    }
+}
