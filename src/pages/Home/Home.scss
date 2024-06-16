@@ -1,3 +1,44 @@
 .home {
-    min-height: 40vh;
+    display: flex;
+    background-color: white;
+    color: black;
+    min-height: 100vh;
+
+    &__logo-section {
+        width: 50%;
+        padding-top: 200px;
+
+    }
+
+    &__logo {
+        max-width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 2rem;
+        float: right;
+        padding-top: 20px;
+        padding-right: 100px;
+    }
+
+    &__nav-section {
+        display: flex;
+        padding-top: 250px;
+        border-left: 50px solid #6F6888;
+        justify-content: center;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__button {
+        font-size: 2.25rem;
+        width: 350px;
+        height: 130px;
+        border-radius: 50px;
+        margin: 5px;
+        border: none;
+    }
 }
