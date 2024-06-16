@@ -55,7 +55,7 @@ const CharactersList:React.FC<CharactersListProps> = ({itemsOnPageCount}) => {
                 </div>
                 <PagesNavigation />
             </div> : 
-            <div className="character-list_not-found">Not found</div>}
+            <div className="character-list__not-found">Not found</div>}
         </div>
     );
 };

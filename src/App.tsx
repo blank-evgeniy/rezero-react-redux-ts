@@ -1,7 +1,7 @@
 import { RouterProvider, createHashRouter } from 'react-router-dom'
 import Home from './pages/Home/Home';
 import "./styles/global.scss"
-import Characters from './pages/CharactersList/Characters';
+import Characters from './pages/Characters/Characters';
 
 const router = createHashRouter([
   {

@@ -1,0 +1,19 @@
+@import "./../../styles/vars.scss";
+
+.characters {
+    background-color: $color-primary;
+    min-height: 100vh;
+
+    &__main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    &__back-btn-img{
+        margin-left: 50px;
+    }
+
+    &__filter{
+        display: flex;
+    }
+}

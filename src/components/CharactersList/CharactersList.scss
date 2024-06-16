@@ -13,4 +13,11 @@
         column-gap: 30px;
         justify-content: end;
     }
+
+    &__not-found {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
 }

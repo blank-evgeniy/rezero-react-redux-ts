@@ -1,14 +1,17 @@
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import "./Search.scss"
 import { filterSlice } from "../../store/reducers/filterSlice";
+import { charactersSlice } from "../../store/reducers/charactersSlice";
 
 const Search = () => {
     const {search} = useAppSelector(state => state.filter)
+    const {firstPage} = charactersSlice.actions;
     const {searhFilterUpdate} = filterSlice.actions;
     const dispatch = useAppDispatch();
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        dispatch(searhFilterUpdate(e.target.value))
+        dispatch(firstPage());
+        dispatch(searhFilterUpdate(e.target.value));
     }
 
     return (
