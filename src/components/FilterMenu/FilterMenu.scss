@@ -1,3 +1,5 @@
+@import "./../../styles/vars";
+
 .filter-menu {
     position: relative;
     width: 170px;
@@ -11,6 +13,18 @@
         font-size: 1.5rem;
         border-radius: 10px 0px 0px 10px;
         border: none;
+
+        &:hover {
+            transition: background-color 0.2s ease-in;
+            background-color: $color-hover;
+            cursor: pointer;
+        }
+
+        &:active {
+            transition: none;
+            background-color: $color-active;
+            cursor: default;
+        }
     }
 
     &__section {

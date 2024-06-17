@@ -5,12 +5,12 @@ import { charactersSlice } from "../../store/reducers/charactersSlice";
 
 const Search = () => {
     const {search} = useAppSelector(state => state.filter)
-    const {firstPage} = charactersSlice.actions;
+    const {pageChanged} = charactersSlice.actions;
     const {searhFilterUpdate} = filterSlice.actions;
     const dispatch = useAppDispatch();
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        dispatch(firstPage());
+        dispatch(pageChanged(1));
         dispatch(searhFilterUpdate(e.target.value));
     }
 

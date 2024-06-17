@@ -10,7 +10,7 @@ const RacesFilter: React.FC = () => {
     const dispatch = useAppDispatch();
     const {races} = useAppSelector( state => state.filter);
     const {raceFilterUpdate} = filterSlice.actions;
-    const {firstPage} = charactersSlice.actions;
+    const {pageChanged} = charactersSlice.actions;
 
     useEffect( () => {
         setRacesList(getRacesList);
@@ -25,7 +25,7 @@ const RacesFilter: React.FC = () => {
     }
 
     const handleChangRace = (e: React.ChangeEvent<HTMLInputElement>, newRace: string) => {
-        dispatch(firstPage());
+        dispatch(pageChanged(1));
         if (e.target.checked) dispatch(raceFilterUpdate([...races, newRace]))
         else dispatch(raceFilterUpdate(races.filter( (race) => {return race != newRace})))
     }

@@ -31,8 +31,8 @@ export const charactersSlice = createSlice({
         prevPage(state){
             state.page -= 1;
         },
-        firstPage(state){
-            state.page = 1;
+        pageChanged(state, action: PayloadAction<number>){
+            state.page = action.payload;
         },
     }
 })

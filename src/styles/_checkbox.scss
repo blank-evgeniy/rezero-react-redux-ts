@@ -1,0 +1,8 @@
+@import "vars.scss";
+input[type="checkbox"]{
+    accent-color: $color-secondary;
+}
+
+input[type="checkbox"] + span {
+    padding-left: 2px;
+}

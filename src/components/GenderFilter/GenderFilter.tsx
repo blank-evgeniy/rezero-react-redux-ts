@@ -5,12 +5,12 @@ import { filterSlice, sexValues } from '../../store/reducers/filterSlice';
 
 const GenderFilter:React.FC = () => {
     const {sexFilterUpdate} = filterSlice.actions;
-    const {firstPage} = charactersSlice.actions;
+    const {pageChanged} = charactersSlice.actions;
     const {sex} = useAppSelector( state => state.filter);
     const dispatch = useAppDispatch();
 
     const handleChangeSex = (e: React.ChangeEvent<HTMLInputElement>, newSex: sexValues) => {
-        dispatch(firstPage());
+        dispatch(pageChanged(1));
         if (!e.target.checked) dispatch(sexFilterUpdate("any"))
         else dispatch(sexFilterUpdate(newSex));
     }
@@ -24,7 +24,7 @@ const GenderFilter:React.FC = () => {
                     checked={sex === "male"} 
                     onChange={(e) => {handleChangeSex(e, "male")}} 
                 />
-                <span>Male</span>
+                <span>male</span>
             </div>
 
             <div className="filter-checkbox">
@@ -33,7 +33,7 @@ const GenderFilter:React.FC = () => {
                     checked={sex === "female"} 
                     onChange={(e) => {handleChangeSex(e, "female")}} 
                 />
-                <span>Female</span>
+                <span>female</span>
             </div>
         </div>
     );

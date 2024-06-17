@@ -1,16 +1,57 @@
-.pages-navigation {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+@import "./../../styles/vars";
 
+.pages-navigation {
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    &__links {
+        display: flex;
+        gap: 16px;
+    }
+
+    &__link-dot {
+        color: white;
+        size: 8px;
+        border: none;
+        background: none;
+
+        &:hover {
+            color: $color-hover;
+            cursor: pointer;
+        }
+
+        &:disabled {
+            color: $color-secondary;
+            cursor: default;
+        }
+    }
 
     &__button{
         border: none;
         background: none;
         color: white;
+
+        &:hover {
+            color: $color-hover;
+            cursor: pointer;
+        }
+
+        &:active {
+            color: $color-disabled;
+            cursor: pointer;
+        }
+        
         &:disabled {
-            color: #6b6b6b;
+            color: $color-disabled;
+            cursor: default;
         }
     }
 
