@@ -1,7 +1,10 @@
-import { RouterProvider, createHashRouter } from 'react-router-dom'
-import Home from './pages/Home/Home';
-import "./styles/global.scss"
-import Characters from './pages/Characters/Characters';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { Suspense, lazy } from 'react';
+import "./styles/global.scss";
+import Spinner from './components/Spinner/Spinner';
+
+const Home = lazy( () => import('./pages/Home/Home'));
+const Characters = lazy( () => import('./pages/Characters/Characters'));
 
 const router = createHashRouter([
   {
@@ -12,12 +15,18 @@ const router = createHashRouter([
     path: "/characters",
     element: <Characters/>,
   },
+  {
+    path: "/characters/:id",
+    element: <div></div>,
+  }
 
 ]);
 
 const App = () => {
     return (
+      <Suspense fallback={<Spinner/>}>
         <RouterProvider router={router}/>
+      </Suspense>
     );
 };
 
