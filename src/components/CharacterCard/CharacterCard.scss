@@ -1,0 +1,29 @@
+@import "./../../styles/vars";
+
+.character-card {
+    margin-top: 80px;
+    overflow: hidden;
+    width: 395px;
+    border-radius: 8px;
+    border: 3px solid $color-secondary;
+    background-color: white;
+
+    &__img {
+        height: 300px;
+        width: 100%;
+        border-bottom: 3px solid $color-secondary;
+        object-fit: cover;
+    }
+
+    &__information {
+        font-size: 1.25rem;
+        color: #000;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    &__information-item {
+        display: flex;
+        justify-content: space-between;
+    }
+}

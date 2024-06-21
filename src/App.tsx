@@ -5,6 +5,7 @@ import Spinner from './components/Spinner/Spinner';
 
 const Home = lazy( () => import('./pages/Home/Home'));
 const Characters = lazy( () => import('./pages/Characters/Characters'));
+const AboutCharacter = lazy( () => import('./pages/AboutCharacter/AboutCharacter'));
 
 const router = createHashRouter([
   {
@@ -17,7 +18,7 @@ const router = createHashRouter([
   },
   {
     path: "/characters/:id",
-    element: <div></div>,
+    element: <AboutCharacter/>,
   }
 
 ]);

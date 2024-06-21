@@ -1,18 +1,20 @@
 import React from "react";
 import "./CharacterItem.scss"
+import { Link } from "react-router-dom";
 
 interface CharacterItemProps {
+    id: number;
     name: string;
     img: string;
 }
 
-const CharacterItem: React.FC<CharacterItemProps> = ({name, img}) => {
+const CharacterItem: React.FC<CharacterItemProps> = ({id, name, img}) => {
     const imagePath = "/images/characters/";
 
     return (
         <div className="character">
             <div className="character__name">{name}</div>
-            <img src={imagePath+img} alt={`${name}'s photo`} className="character__image"></img>
+            <Link to={`/characters/${id}`}><img src={imagePath+img} alt={`${name}'s photo`} className="character__image"/></Link>
         </div>
     );
 };

@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name": "Subaru",
+        "information": {
+            "race": "human",
+            "gender": "male",
+            "age": "18",
+            "affiliation": "Kingdom of Lugunica",
+            "status": "alive"
+        },
+        "description": "Natsuki Subaru (ナツキ・スバル) is the main protagonist of Re:Zero kara Hajimeru Isekai Seikatsu. He is a former hikikomori that was transported to Lugunica through unknown means, being given the Authority which he calls 'Return by Death' by Satella, and meeting the Royal Selection Candidate Emilia. \n\nHe officially became Emilia's knight and subsequently became a knight of the Dragon Kingdom of Lugunica[1] (though with no official duties towards the Kingdom) following the incident at the Sanctuary and is later revealed to be a Sage Candidate: someone with the necessary qualifications to become a Sage.",
+        "img": "Subaru.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Rem",
+        "information": {
+            "race": "oni",
+            "gender": "female",
+            "age": "19",
+            "affiliation": "Kingdom of Lugunica",
+            "status": "alive"
+        },
+        "description": "Rem (レム) is a maid in service of Margrave Roswaal L. Mathers alongside her sister, Ram. She is one of the main supporting characters of Re:Zero, with major roles in Arc 2, Arc 3, and Arc 7. During the first half of Arc 2, she also served as the secondary antagonist. \n\nWhile initially distrustful of Subaru, she eventually opened up to him and even developed strong feelings for him after he saved her. However, at the end of Arc 3, she had her name and memories eaten by Lye Batenkaitos and subsequently fell into suspended animation. At the end of Arc 6, she finally woke up from her slumber following Lye's death, but now suffers amnesia due to not having yet regained her memories. She was transported to the Sacred Vollachia Empire with Subaru and Rui Arneb, still without her name and memories.",
+        "img": "Rem.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Ram",
+        "information": {
+            "race": "oni",
+            "gender": "female",
+            "age": "19",
+            "affiliation": "Kingdom of Lugunica",
+            "status": "alive"
+        },
+        "description": "Ram (ラム) is Rem's sister and one of the twin maids working for Margrave Roswaal L. Mathers. She played a supporting role in Arc 2, Arc 4, and Arc 6, as well as a lesser supporting role in Arc 3, Arc 7, and Arc 8. Originally, Ram was born into the Oni Clan with a single horn and displayed exceptional talent and strength which resulted in the village referring to her as the second coming of the Oni God. However, after an attack orchestrated by the Witch Cult, she lost her horn and, together with her sister, was saved by Roswaal L. Mathers. \n\nIn return, Ram swore to help Roswaal in his own endeavors, pledging to help him kill the Divine Dragon. During her ten years of serving under the Margrave, she developed strong feelings of love for him, despite initially vowing to kill him and avenge her slaughtered Clan.",
+        "img": "Ram.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Emilia",
+        "information": {
+            "race": "half-elf",
+            "gender": "female",
+            "age": "late teens (physical)",
+            "affiliation": "Kingdom of Lugunica",
+            "status": "alive"
+        },
+        "description": "Emilia (エミリア) is the main heroine of the Re:Zero kara Hajimeru Isekai Seikatsu series. She is a half-elf and a candidate to become the 42nd king of the Dragon Kingdom of Lugunica in the Royal Selection, who met Natsuki Subaru on the day he was summoned to the world. \n\nEmilia has had large and pivotal parts in several arcs, including Arc 1, Arc 4, Arc 5, and Arc 6. She has also had a supporting role in every other arc of the series. She played a big part in the defeat of the Great Rabbit and the Sin Archbishop of Greed, and she has also become the new administrator of the Pleiades Watchtower.",
+        "img": "Emilia.jpg"
+    }
+]

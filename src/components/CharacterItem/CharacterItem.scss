@@ -14,5 +14,10 @@
         border-radius: 16px;
         border-bottom: 4px solid #493F4B;
         object-fit: cover;
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

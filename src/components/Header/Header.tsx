@@ -14,7 +14,7 @@ const Header:React.FC<HeaderProps> = ({title}) => {
         <header className="header">
             <button className="header__button" 
             onClick={() => {navigate(-1)}}><PiArrowUUpLeft className="character-list__back-btn-img" size={"30px"}/></button>
-            <h1 className="header__title">{title}</h1>
+            { title && <h1 className="header__title">{title}</h1>}
         </header>
     );
 };

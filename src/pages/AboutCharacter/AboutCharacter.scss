@@ -1,0 +1,35 @@
+@import "./../../styles/vars.scss";
+
+.about-character {
+    color: white;
+    background-color: $color-primary;
+    min-height: 100vh;
+
+    &__main {
+        max-width: 1000px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+
+    &__not-found {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 395px auto;
+        gap: 20px;
+    }
+
+    &__name {
+        font-size: 2.5rem;
+        color: #8776C1;
+        line-height: 80px;
+    }
+
+    &__text {
+        font-size: 1.25rem;
+        white-space: pre-wrap;
+    }
+}

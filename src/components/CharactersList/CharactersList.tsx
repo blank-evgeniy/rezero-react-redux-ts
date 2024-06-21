@@ -49,6 +49,7 @@ const CharactersList:React.FC<CharactersListProps> = ({itemsOnPageCount}) => {
                 <div className="character-list__items">
                     {characters.map( (character) => 
                         <CharacterItem key={character.id}
+                            id={character.id}
                             name={character.name}
                             img={character.img}
                         />)}
