@@ -11,7 +11,7 @@ const Characters:React.FC = () => {
 
     return (
         <div className="characters">
-            <Header title="Characters"/>
+            <Header link="/" title="Characters"/>
 
             <main className="characters__main">
                 <div className="characters__filter">

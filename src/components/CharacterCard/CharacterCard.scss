@@ -16,7 +16,7 @@
     background-color: white;
 
     &__img {
-        height: auto;
+        height: 300px;
         width: 100%;
 
         border-bottom: 3px solid $color-secondary;
@@ -45,12 +45,12 @@
     }
 
     @include mediaMedium {
-        width: 90%;
         margin: 0 auto;
         float: none;
     }
 
     @include mediaPhone {
+        width: 90%;
         &__img {
             height: 300px;
         }

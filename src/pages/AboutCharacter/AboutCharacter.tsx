@@ -23,7 +23,7 @@ const AboutCharacter:React.FC = () => {
 
     return (
         <div className='about-character'>
-            <Header title=''/>
+            <Header link='/characters' title=''/>
             <main className='about-character__main'>
                 {characterData == null ? 
                 <div className='about-character__not-found'>The character's page was not found</div> :

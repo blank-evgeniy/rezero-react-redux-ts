@@ -50,9 +50,9 @@
     },
     {
         "id": 8,
-        "name": "Betelgeuse",
+        "name": "Petelgeuse",
         "sex": "male",
-        "race": "human",
+        "race": "spirit",
         "img": "Betelgeuse.jpg"
     },
     {
@@ -87,7 +87,7 @@
         "id": 13,
         "name": "Frederica",
         "sex": "female",
-        "race": "human",
+        "race": "beast human",
         "img": "Frederica.jpg"
     },
     {

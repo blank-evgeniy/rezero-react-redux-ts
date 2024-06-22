@@ -6,11 +6,11 @@
             "race": "human",
             "gender": "male",
             "age": "18",
-            "affiliation": "Kingdom of Lugunica",
+            "affiliation": "Emilia Camp",
             "status": "alive"
         },
-        "description": "Natsuki Subaru (ナツキ・スバル) is the main protagonist of Re:Zero kara Hajimeru Isekai Seikatsu. He is a former hikikomori that was transported to Lugunica through unknown means, being given the Authority which he calls 'Return by Death' by Satella, and meeting the Royal Selection Candidate Emilia. \n\nHe officially became Emilia's knight and subsequently became a knight of the Dragon Kingdom of Lugunica[1] (though with no official duties towards the Kingdom) following the incident at the Sanctuary and is later revealed to be a Sage Candidate: someone with the necessary qualifications to become a Sage.",
-        "img": "Subaru.jpg"
+        "description": "Natsuki Subaru (ナツキ・スバル) is the main protagonist of Re:Zero kara Hajimeru Isekai Seikatsu. He is a former hikikomori that was transported to Lugunica through unknown means, being given the Authority which he calls \"Return by Death\" by Satella, and meeting the Royal Selection Candidate Emilia. \n\nHe officially became Emilia's knight and subsequently became a knight of the Dragon Kingdom of Lugunica[1] (though with no official duties towards the Kingdom) following the incident at the Sanctuary and is later revealed to be a Sage Candidate: someone with the necessary qualifications to become a Sage.",
+        "img": "subaru_about.jpg"
     },
     {
         "id": 2,
@@ -19,11 +19,11 @@
             "race": "oni",
             "gender": "female",
             "age": "19",
-            "affiliation": "Kingdom of Lugunica",
+            "affiliation": "Emilia Camp",
             "status": "alive"
         },
-        "description": "Rem (レム) is a maid in service of Margrave Roswaal L. Mathers alongside her sister, Ram. She is one of the main supporting characters of Re:Zero, with major roles in Arc 2, Arc 3, and Arc 7. During the first half of Arc 2, she also served as the secondary antagonist. \n\nWhile initially distrustful of Subaru, she eventually opened up to him and even developed strong feelings for him after he saved her. However, at the end of Arc 3, she had her name and memories eaten by Lye Batenkaitos and subsequently fell into suspended animation. At the end of Arc 6, she finally woke up from her slumber following Lye's death, but now suffers amnesia due to not having yet regained her memories. She was transported to the Sacred Vollachia Empire with Subaru and Rui Arneb, still without her name and memories.",
-        "img": "Rem.jpg"
+        "description": "Rem (レム) is a maid in service of Margrave Roswaal L. Mathers alongside her sister, Ram. She is one of the main supporting characters of Re:Zero, with major roles in Arc 2, Arc 3, and Arc 7. During the first half of Arc 2, she also served as the secondary antagonist.\n\nWhile initially distrustful of Subaru, she eventually opened up to him and even developed strong feelings for him after he saved her. However, at the end of Arc 3, she had her name and memories eaten by Lye Batenkaitos and subsequently fell into suspended animation. At the end of Arc 6, she finally woke up from her slumber following Lye's death, but now suffers amnesia due to not having yet regained her memories. She was transported to the Sacred Vollachia Empire with Subaru and Rui Arneb, still without her name and memories.",
+        "img": "rem_about.jpg"
     },
     {
         "id": 3,
@@ -32,11 +32,11 @@
             "race": "oni",
             "gender": "female",
             "age": "19",
-            "affiliation": "Kingdom of Lugunica",
+            "affiliation": "Emilia Camp",
             "status": "alive"
         },
-        "description": "Ram (ラム) is Rem's sister and one of the twin maids working for Margrave Roswaal L. Mathers. She played a supporting role in Arc 2, Arc 4, and Arc 6, as well as a lesser supporting role in Arc 3, Arc 7, and Arc 8. Originally, Ram was born into the Oni Clan with a single horn and displayed exceptional talent and strength which resulted in the village referring to her as the second coming of the Oni God. However, after an attack orchestrated by the Witch Cult, she lost her horn and, together with her sister, was saved by Roswaal L. Mathers. \n\nIn return, Ram swore to help Roswaal in his own endeavors, pledging to help him kill the Divine Dragon. During her ten years of serving under the Margrave, she developed strong feelings of love for him, despite initially vowing to kill him and avenge her slaughtered Clan.",
-        "img": "Ram.jpg"
+        "description": "Ram (ラム) is Rem's sister and one of the twin maids working for Margrave Roswaal L. Mathers. She played a supporting role in Arc 2, Arc 4, and Arc 6, as well as a lesser supporting role in Arc 3, Arc 7, and Arc 8.\n\nOriginally, Ram was born into the Oni Clan with a single horn and displayed exceptional talent and strength which resulted in the village referring to her as the second coming of the Oni God. However, after an attack orchestrated by the Witch Cult, she lost her horn and, together with her sister, was saved by Roswaal L. Mathers. In return, Ram swore to help Roswaal in his own endeavors, pledging to help him kill the Divine Dragon. During her ten years of serving under the Margrave, she developed strong feelings of love for him, despite initially vowing to kill him and avenge her slaughtered Clan.",
+        "img": "ram_about.jpg"
     },
     {
         "id": 4,
@@ -45,10 +45,192 @@
             "race": "half-elf",
             "gender": "female",
             "age": "late teens (physical)",
-            "affiliation": "Kingdom of Lugunica",
+            "affiliation": "Emilia Camp",
             "status": "alive"
         },
-        "description": "Emilia (エミリア) is the main heroine of the Re:Zero kara Hajimeru Isekai Seikatsu series. She is a half-elf and a candidate to become the 42nd king of the Dragon Kingdom of Lugunica in the Royal Selection, who met Natsuki Subaru on the day he was summoned to the world. \n\nEmilia has had large and pivotal parts in several arcs, including Arc 1, Arc 4, Arc 5, and Arc 6. She has also had a supporting role in every other arc of the series. She played a big part in the defeat of the Great Rabbit and the Sin Archbishop of Greed, and she has also become the new administrator of the Pleiades Watchtower.",
-        "img": "Emilia.jpg"
+        "description": "Emilia (エミリア) is the main heroine of the Re:Zero kara Hajimeru Isekai Seikatsu series. She is a half-elf and a candidate to become the 42nd king of the Dragon Kingdom of Lugunica in the Royal Selection, who met Natsuki Subaru on the day he was summoned to the world.\n\nEmilia has played a supporting role in every arc, with major and pivotal roles in more than half of them. She played a big part in the defeat of the Great Rabbit and the Sin Archbishop of Greed, and she has also become the new administrator of the Pleiades Watchtower.",
+        "img": "emilia_about.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Beatrice",
+        "information": {
+            "race": "Artificial Spirit",
+            "gender": "female",
+            "age": "400+",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Beatrice (ベアトリス) is a member of the Emilia Camp and the former caretaker of the Forbidden Library at the old Roswaal Manor, until its destruction in the climax of Arc 4. She is one of the main supporting characters in Re:Zero, having had a supporting role to play in every arc except Arc 1 and Arc 3.\n\nShe is an artificial spirit created by the Witch of Greed for unknown reasons. 400 years ago, she was told to wait in the library for \"that person\" who would grant her salvation. However, in Arc 4's climax, Subaru convinced her to live and she became his contracted spirit.",
+        "img": "beatrice_about.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Roswaal L. Mathers",
+        "information": {
+            "race": "human",
+            "gender": "male",
+            "age": "400+",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Roswaal L. Mathers (ロズワール・L・メイザース) is the lord of Roswaal Manor and the Mathers Domain, the Dragon Kingdom of Lugunica's Head Court Mage, and the margrave of the Kingdom's western territories. Since the age of 14, Roswaal has been possessed by the soul of his ancestor, Roswaal A. Mathers—originally named Altair Mathers. He set up the events of Arc 1, played a supporting role in Arc 2, Arc 3, Arc 7, and Arc 8, and he was one of the main antagonists of Arc 4.\n\nAlthough supporting Emilia's quest for the throne, he was actually using her, Subaru, and Ram for his own goals, which involved killing the Divine Dragon and resurrecting his mentor. However, in Arc 4, he made a bet with Subaru and subsequently lost, forcing him to truly support Emilia, though he hasn't given up on his ambitions.",
+        "img": "roswaal_about.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Elsa Granhiert",
+        "information": {
+            "race": "human",
+            "gender": "female",
+            "age": "23",
+            "affiliation": "Gusteko",
+            "status": "Deceased"
+        },
+        "description": "Elsa Granhiert (エルザ・グランヒルテ) was an assassin working together with Meili Portroute as the \"child\" of an individual known as Mother until her death at the hands of Garfiel Tinsel. She was the main antagonist of Arc 1 and one of the primary antagonists of Arc 4.\n\nShe perished after her body was utterly decimated by Garfiel. However, her corpse would reanimate itself thanks to her self-proclaimed Blessing, the curse that was responsible for her regenerate, and attempt to kill Natsuki Subaru. Ultimately, her corpse was engulfed in an explosion that reduced her to ash.",
+        "img": "elsa_about.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Petelgeuse",
+        "information": {
+            "race": "spirit",
+            "gender": "male",
+            "age": "402",
+            "affiliation": "Witch Cult",
+            "status": "Deceased"
+        },
+        "description": "Petelgeuse Romanée-Conti (ペテルギウス・ロマネコンティ) was a Sin Archbishop of the Witch Cult, representing Sloth. In addition to his position as a Sin Archbishop, he was a spirit who lived for four centuries as well as a co-founder of the Witch Cult. Debuting in Arc 3 as its primary antagonist, he led a group of cultists to attack Arlam Village and Roswaal Manor. Throughout the arc, Petelgeuse acted as a foil to Subaru. He was ultimately defeated when his body was set on fire and crushed under a dragon carriage's wheels.\n\nDuring Emilia's first trial in Arc 4, it was revealed that he was once close to Emilia and her aunt Fortuna, but he went insane after taking in the Witch Factor of Sloth that he was incompatible with and being deceived into killing Fortuna by Pandora. Petelgeuse continues to be brought up in following arcs, primarily by the Emilia Camp and his fellow Sin Archbishops.",
+        "img": "betelgeuse_about.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Anastasia",
+        "information": {
+            "race": "human",
+            "gender": "female",
+            "age": "23 ",
+            "affiliation": "Anastasia Camp",
+            "status": "alive"
+        },
+        "description": "Anastasia Hoshin (アナスタシア・ホーシン) is the chairman of the Hoshin Company and a candidate to become the 42nd king of Lugunica. She is a supporting character first introduced in Arc 3, she plays major roles in Arc 5 and Arc 6, and she also has a lesser supporting role in Arc 8.\n\nA commoner turned successful entrepreneur, her motive for participating in the Royal Selection is solely to expand her business. In Arc 5, she allowed her contracted spirit, Eridna, to possess her so as to not forget her knight, Julius, after he had his name eaten by the Sin Archbishop of Gluttony. After the events of Arc 6, her spirit ended their contract, causing her to forget him, but it also allowed the two to start their relationship anew.",
+        "img": "anastasia_about.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Priscilla",
+        "information": {
+            "race": "human",
+            "gender": "female",
+            "age": "20 ",
+            "affiliation": "Priscilla Camp",
+            "status": "Deceased"
+        },
+        "description": "Priscilla Barielle (プリシラ・バーリエル) is an exiled imperial princess of the Sacred Vollachia Empire, the Matriarch of House Barielle, and a candidate to become the 42nd king of Lugunica. While only a supporting character in Arc 3 and Arc 5, she had a major role in Arc 7 and Arc 8.\n\nShe was originally born in Vollachia as one of the many children of the country’s emperor. As such, she participated in their Imperial Selection Ceremony. Despite having become one of the frontrunners, she ultimately lost when her brother and closest aide faked her death. Afterward, following the death of her first husband, she was smuggled into Lugunica, went through several husbands, and ended up married to the late Leip Barielle, who discovered her as one of the Royal Selection Candidates.\n\nDuring the Great Disaster, Priscilla was imprisoned by Sphinx and forced to watch as her home nation was slowly led to ruin. Rather than standing idly by, she took advantage of the resurrection magic in order to escape her imprisonment by becoming an undead. A day following the victory, she peacefully faded away before the eyes of Natsuki Subaru and her knight, Aldebaran.",
+        "img": "priscilla_about.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Reinhard",
+        "information": {
+            "race": "human",
+            "gender": "male",
+            "age": "20",
+            "affiliation": "Felt Camp",
+            "status": "alive"
+        },
+        "description": "Reinhard van Astrea (ラインハルト・ヴァン・アストレア) is the current Sword Saint and a member of the Royal Guard, being the very strongest \"weapon\" the Kingdom has in its arsenal. During the events of Arc 3, he pledged himself to serve as Felt's knight and fully support her throughout the Royal Selection.\n\nDebuting in Arc 1, Reinhard played a key role in overcoming the first major obstacle standing in Subaru's way—the northern assassin, Elsa Granhiert. While being almost completely absent from the following three arcs, he returned and played a pivotal role in Arc 5, being one of the key figures in defeating the Witch Cult's Sin Archbishops and retaking the Watergate City of Priestella.",
+        "img": "reinhard_about.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Otto",
+        "information": {
+            "race": "human",
+            "gender": "male",
+            "age": "21 ",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Otto Suwen (オットー・スーウェン) is a former merchant and the current internal affairs officer of the Emilia Camp. Debuting in Arc 3, Otto and Subaru initially started off on a hostile note after their encounter with the White Whale in a failed loop. After being rescued from the Witch Cult when taken prisoner by a fellow merchant, Otto accompanied Subaru and Emilia to the Sanctuary in Arc 4, where he acted as one of Subaru's biggest supporters, proving crucial to Subaru's plans and allowing him to defeat Roswaal and overcome the problems at the Sanctuary.\n\nIn the following year, Otto joined the Emilia Camp and became their internal affairs officer. He also plays a crucial role in Arc 5, helping in warding-off two of the three Sin Archbishops of Gluttony, at a cost of suffering a serious injury to his legs. Later, he'd play a supporting role in Arc 7 and Arc 8.",
+        "img": "otto_about.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Frederica",
+        "information": {
+            "race": "Beast Human",
+            "gender": "female",
+            "age": "22",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Frederica Baumann (フレデリカ・バウマン) is a maid in service to Roswaal L. Mathers. Joining the Emilia Camp in Arc 4, she has yet to play a major supporting role. However, Frederica has played a lesser supporting role in Arc 7 and Arc 8, and she is set to have a major role in the final arc. 1\n\nThough she was in retirement for a while, Frederica resumed her position at Ram's request following the events of Arc 3. Throughout Arc 4, she helped defend the mansion against Elsa and Meili while having to deal with the complicated family situation regarding her younger half-brother, Garfiel.",
+        "img": "frederica_about.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Puck",
+        "information": {
+            "race": "Artificial Spirit",
+            "gender": "male",
+            "age": "421",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Puck (パック) is an artificial spirit created by Echidna that Emilia was formerly contracted with. He is counted among the Four Great Spirits as the Beast of the End.[1][2]\n\nDuring the events of the first four arcs, Puck played a pivotal role for Emilia's mental state, supporting her and acting as her parental figure. In Arc 4, however, Puck forcefully severed the contract with her in order to remove the seal placed over Emilia's memories, giving her a fighting chance in the Witch of Greed's Trials. After using every last bit of power he was capable of mustering up at that time, Puck entered a long period of sleep, inside a powerful glintstone that is currently worn by Emilia. However, the stone is not powerful enough to allow him to materialize.",
+        "img": "puck_about.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Garfiel",
+        "information": {
+            "race": "Beast Human",
+            "gender": "male",
+            "age": "15 ",
+            "affiliation": "Emilia Camp",
+            "status": "alive"
+        },
+        "description": "Garfiel Tinsel (ガーフィール・ティンゼル) is Frederica Baumann's half-brother, the former guardian of the Sanctuary, and the current military officer of the Emilia Camp. Introduced as a secondary antagonist during the first half of Arc 4, he later became one of the main supporting characters of Re:Zero, with major roles in the second half of Arc 4, Arc 5, Arc 7, and Arc 8.\n\nHe harboured an immense fear of the outside world following a family tragedy. However, with Subaru's help, he overcame his past trauma, and after overcoming the incidents at the Sanctuary and Roswaal Manor, he joined the Emilia Camp. Since being exposed to the outside world, he has faced many situations where he was powerless, yet he still remains determined to protect those close to him.",
+        "img": "garfiel_about.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Pandora",
+        "information": {
+            "race": "unknown",
+            "gender": "female",
+            "age": "over 400+",
+            "affiliation": "Witch Cult",
+            "status": "alive"
+        },
+        "description": "Pandora (パンドラ) is the Witch of Vainglory who has a connection to the Witch Cult. Due to her seeming command over the Cult, she is arguably one of the main antagonists of Re:Zero.\n\nAround one hundred years ago, Pandora attacked Elior Forest alongside the Sin Archbishop of Greed and the Black Serpent. Her goal was to use the young half-elf girl named Emilia to unlock a mysterious seal located in the depths of the forest, however, her plan failed when Emilia froze everyone in the village including herself. Around fourteen years ago, during the failed Great Conquest, Pandora appeared and played a part in the death of Theresia van Astrea.",
+        "img": "pandora_about.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Julius",
+        "information": {
+            "race": "human",
+            "gender": "male",
+            "age": "22",
+            "affiliation": "Anastasia Camp",
+            "status": "alive"
+        },
+        "description": "Julius Juukulius (ユリウス・ユークリウス) is Anastasia Hoshin's knight and a member of the Royal Guard. He is a supporting character in Re:Zero, with pivotal roles in both Arc 3 and Arc 6, while having a lesser supporting role in Arc 5 and Arc 8. Julius also played the role of a protagonist in Ex Volume 4, which is set roughly 3–4 months before the start of the main story and half a year before the start of the Royal Selection.\n\nThough born a commoner, he was adopted into the Juukulius household following his parents’ deaths, where he would eventually become the next in line to take over the house. Joining the Royal Guard, he became known as the Finest of Knights, respected across the entirety of the knights’ order, and later, he’d become Anastasia’s knight, effectively joining her camp during the Royal Selection. Unfortunately, his name was devoured by the Sin Archbishop of Gluttony, leaving him forgotten from the memories of all except Natsuki Subaru.",
+        "img": "julius_about.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Felt",
+        "information": {
+            "race": "human",
+            "gender": "female",
+            "age": "15",
+            "affiliation": "Felt Camp",
+            "status": "Alive"
+        },
+        "description": "Felt (フェルト) is a former thief and a candidate to become the 42nd king of Lugunica. She is a supporting character first introduced in Arc 1, where she plays a major role. She also played a supporting role in Arc 5 during the Battle for Priestella.\n\nShe was hired to steal Emilia's insignia, but later ended up fighting alongside her, Natsuki Subaru, and Reinhard van Astrea against Elsa Granhiert. Afterward, she is forced to participate in the Royal Selection after being chosen by the insignia. Having grown up in the slums, she takes the opportunity to get revenge on the Kingdom by making her primary policy to disband all government.\n\nFurthermore, it is heavily implied that Felt is, in fact, a member of the Royal Family and the missing daughter of His Majesty's younger brother, Ford Lugunica, who died roughly a year before the events of the main story, as her appearance matches that of the Royal Family's, and her apparent age matches the number of years since the missing child's kidnapping.",
+        "img": "felt_about.jpg"
     }
 ]
