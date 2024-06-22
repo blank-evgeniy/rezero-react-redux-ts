@@ -1,8 +1,9 @@
 @import "./../../styles/vars.scss";
 
 .characters {
-    background-color: $color-primary;
     min-height: 100vh;
+    padding: 8px;
+    background-color: $color-primary;
 
     &__main {
         max-width: 1000px;
@@ -15,5 +16,13 @@
 
     &__filter{
         display: flex;
+    }
+
+    @include mediaTablet{
+        &__filter{
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-end;
+        }
     }
 }

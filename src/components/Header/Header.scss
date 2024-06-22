@@ -2,18 +2,20 @@
 
 .header {
     max-width: 1200px;
+
     margin: 0 auto;
+    padding: 5px;
     padding-top: 20px;
     padding-bottom: 50px;
 
     &__button {
         height: 50px;
         width: 128px;
+
+        border-radius: 20px 0 0 20px;
+
         background-color: #453C61;
         color: white;
-        border: none;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
 
         &:hover {
             transition: background-color 0.2s ease-in;
@@ -30,9 +32,29 @@
 
     &__title {
         font-size: 2.25rem;
+
         display: inline;
         padding-left: 150px;
         text-transform: uppercase;
     }
 
+    @include mediaTablet {
+        &__button {
+            width: 100px;
+        }
+
+        &__title {
+            padding-left: 10%;
+        }
+    }
+
+    @include mediaPhone {
+        &__button {
+            width: 64px;
+        }
+
+        &__title {
+            font-size: 1.75rem;
+        }
+    }
 }

@@ -22,18 +22,20 @@ const GenderFilter:React.FC = () => {
                 <input 
                     type="checkbox" 
                     checked={sex === "male"} 
+                    id="male"
                     onChange={(e) => {handleChangeSex(e, "male")}} 
                 />
-                <span>male</span>
+                <label htmlFor="male" >male</label>
             </div>
 
             <div className="filter-checkbox">
                 <input 
                     type="checkbox" 
                     checked={sex === "female"} 
+                    id="female"
                     onChange={(e) => {handleChangeSex(e, "female")}} 
                 />
-                <span>female</span>
+                <label htmlFor="female" >female</label>
             </div>
         </div>
     );

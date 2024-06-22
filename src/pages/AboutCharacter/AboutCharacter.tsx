@@ -28,12 +28,10 @@ const AboutCharacter:React.FC = () => {
                 {characterData == null ? 
                 <div className='about-character__not-found'>The character's page was not found</div> :
                 <>
-                    <div className='about-character__container'>
-                        <CharacterCard name={characterData.name} information={characterData.information} img={characterData.img}/>
-                        <div className='about-character__description'>
-                            <h1 className='about-character__name'>{characterData.name}</h1>
-                            <p className='about-character__text'>{characterData.description}</p>
-                        </div>
+                    <CharacterCard name={characterData.name} information={characterData.information} img={characterData.img}/>
+                    <div className='about-character__description'>
+                        <h1 className='about-character__name'>{characterData.name}</h1>
+                        <p className='about-character__text'>{characterData.description}</p>
                     </div>
                 </>
                 }

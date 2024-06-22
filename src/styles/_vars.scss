@@ -6,8 +6,9 @@ $color-hover: #b3b3b3;
 $color-active: #656565;
 
 //media
-$tablet: 1023px;
-$phone: 479px;
+$tablet: 1024px;
+$medium: 680px;
+$phone: 480px;
 
 //mixins
 @mixin mediaTablet {
@@ -15,6 +16,13 @@ $phone: 479px;
         @content;
     }
 }
+
+@mixin mediaMedium {
+    @media screen and (max-width: $medium){
+        @content;
+    }
+}
+
 @mixin mediaPhone {
     @media screen and (max-width: $phone){
         @content;

@@ -39,7 +39,7 @@ const PagesNavigation: React.FC = () => {
                         key={pageNumber} 
                         className="pages-navigation__link-dot"
                         onClick={() => dispatch(pageChanged(pageNumber))} 
-                    ><GoDotFill/></button>
+                    ><GoDotFill size="24px"/></button>
                     
                 )}
             </div>   

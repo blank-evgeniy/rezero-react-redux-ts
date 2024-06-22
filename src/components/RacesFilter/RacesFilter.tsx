@@ -38,10 +38,11 @@ const RacesFilter: React.FC = () => {
                 <div className="filter-checkbox" key={i}>
                     <input 
                         type="checkbox" 
-                        checked={races.indexOf(race) !== -1} 
+                        checked={races.indexOf(race) !== -1}
+                        id={race} 
                         onChange={(e) => {handleChangRace(e, race)}} 
                     />
-                    <span>{race}</span>
+                    <label htmlFor={race}>{race}</label>
                 </div> 
             )}
         </div>

@@ -22,7 +22,7 @@ const CharacterCard: React.FC<CharacterCardProps> = ({name, information, img}) =
                 className='character-card__information-item'
             >
                 <p>{capitalizeFirstLetter(key)} </p>
-                <p>{capitalizeFirstLetter(information[key])}</p>
+                <p className='character-card__information-value'>{capitalizeFirstLetter(information[key])}</p>
             </div>
         )
         }

@@ -1,15 +1,16 @@
 @import "./../../styles/vars";
 
 .pages-navigation {
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+    padding-top: 20px;
+
     &__container {
         display: flex;
         justify-content: center;
-        gap: 5px;
+        gap: 8px;
     }
 
     &__links {
@@ -18,9 +19,9 @@
     }
 
     &__link-dot {
-        color: white;
-        size: 8px;
         border: none;
+
+        color: white;
         background: none;
 
         &:hover {
@@ -35,9 +36,8 @@
     }
 
     &__button{
-        border: none;
-        background: none;
         color: white;
+        background: none;
 
         &:hover {
             color: $color-hover;
@@ -57,5 +57,11 @@
 
     &__info{
         font-size: 2rem;
+    }
+
+    @include mediaTablet{
+        &__link-dot {
+            font-size: 16px;
+        }
     }
 }
