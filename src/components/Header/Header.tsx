@@ -1,11 +1,12 @@
-import "./Header.scss"
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { PiArrowUUpLeft } from "react-icons/pi";
 
+import "./Header.scss"
+
 interface HeaderProps{
     link: string;
-    title: string;
+    title?: string;
 }
 
 const Header:React.FC<HeaderProps> = ({link, title}) => {

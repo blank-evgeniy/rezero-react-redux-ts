@@ -1,6 +1,7 @@
 import React from "react";
-import "./CharacterItem.scss"
 import { Link } from "react-router-dom";
+
+import "./CharacterItem.scss";
 
 interface CharacterItemProps {
     id: number;

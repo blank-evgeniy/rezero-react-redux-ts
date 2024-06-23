@@ -1,5 +1,5 @@
 export type InformationType = {
-    [key: string]: string;
+    [key: string]: string | number;
 }
 
 

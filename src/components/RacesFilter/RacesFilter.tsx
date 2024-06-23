@@ -16,7 +16,7 @@ const RacesFilter: React.FC = () => {
         setRacesList(getRacesList);
     }, [])
 
-    const getRacesList = () => {
+    const getRacesList = (): string[] => {
         return (
             CharactersData
                 .map((obj) => {return obj.race})

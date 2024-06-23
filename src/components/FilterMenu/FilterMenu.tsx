@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
-import "./FilterMenu.scss";
 import useOutside from "../../hooks/useOutside";
 import GenderFilter from "../GenderFilter/GenderFilter";
 import RacesFilter from "../RacesFilter/RacesFilter";
+
+import "./FilterMenu.scss";
 
 const FilterMenu: React.FC = () => {
 

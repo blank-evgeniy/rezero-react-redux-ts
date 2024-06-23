@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import "./CharactersList.scss"
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import { charactersSlice } from "../../store/reducers/charactersSlice";
-import CharactersData from '../../data/character.json';
 import CharacterItem from "../../components/CharacterItem/CharacterItem";
 import PagesNavigation from "../PagesNavigation/PagesNavigation";
+
+import CharactersData from '../../data/character.json';
+import "./CharactersList.scss";
 
 interface CharactersListProps{
     itemsOnPageCount: number;
@@ -38,7 +39,7 @@ const CharactersList:React.FC<CharactersListProps> = ({itemsOnPageCount}) => {
         setIsNotFound(charactersList.length===0);
         dispatch(pagesCountUpdated(Math.ceil(charactersList.length/itemsOnPageCount)));
 
-        return charactersList.filter( (_character, index) => {
+        return charactersList.filter( (_, index) => {
             return index < itemsOnPageCount*page &&  index + 1 > itemsOnPageCount*(page-1)
         });
     }

@@ -1,9 +1,10 @@
 import React from 'react';
-import "./PagesNavigation.scss"
 import { MdPlayArrow } from "react-icons/md";
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
 import { charactersSlice } from '../../store/reducers/charactersSlice';
 import { GoDotFill } from "react-icons/go";
+
+import "./PagesNavigation.scss"
 
 const PagesNavigation: React.FC = () => {
     const dispatch = useAppDispatch();
