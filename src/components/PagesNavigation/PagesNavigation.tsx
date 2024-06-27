@@ -1,15 +1,15 @@
 import React from 'react';
 import { MdPlayArrow } from "react-icons/md";
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
-import { charactersSlice } from '../../store/reducers/charactersSlice';
+import { pageSlice } from '../../store/reducers/pageSlice';
 import { GoDotFill } from "react-icons/go";
 
 import "./PagesNavigation.scss"
 
 const PagesNavigation: React.FC = () => {
     const dispatch = useAppDispatch();
-    const {nextPage, prevPage, pageChanged} = charactersSlice.actions;
-    const {page, pagesCount} = useAppSelector(state => state.characters);
+    const {nextPage, prevPage, pageChanged} = pageSlice.actions;
+    const {page, pagesCount} = useAppSelector(state => state.page);
     const pagesNumbers = Array.from({length: pagesCount}, (_, i) => i + 1);
 
     return (

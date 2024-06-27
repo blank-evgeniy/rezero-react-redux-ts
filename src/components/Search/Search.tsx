@@ -1,13 +1,13 @@
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../hooks/redux";
 import { filterSlice } from "../../store/reducers/filterSlice";
-import { charactersSlice } from "../../store/reducers/charactersSlice";
+import { pageSlice } from "../../store/reducers/pageSlice";
 
 import "./Search.scss"
 
 const Search: React.FC = () => {
     const {search} = useAppSelector(state => state.filter)
-    const {pageChanged} = charactersSlice.actions;
+    const {pageChanged} = pageSlice.actions;
     const {searhFilterUpdate} = filterSlice.actions;
     const dispatch = useAppDispatch();
 

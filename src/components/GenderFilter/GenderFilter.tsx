@@ -1,18 +1,18 @@
 import React from 'react';
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
-import { charactersSlice } from '../../store/reducers/charactersSlice';
-import { filterSlice, sexValues } from '../../store/reducers/filterSlice';
+import { pageSlice } from '../../store/reducers/pageSlice';
+import { filterSlice, genderValues } from '../../store/reducers/filterSlice';
 
 const GenderFilter:React.FC = () => {
-    const {sexFilterUpdate} = filterSlice.actions;
-    const {pageChanged} = charactersSlice.actions;
-    const {sex} = useAppSelector( state => state.filter);
+    const {genderFilterUpdate} = filterSlice.actions;
+    const {pageChanged} = pageSlice.actions;
+    const {gender} = useAppSelector( state => state.filter);
     const dispatch = useAppDispatch();
 
-    const handleChangeSex = (e: React.ChangeEvent<HTMLInputElement>, newSex: sexValues) => {
+    const handleChangegender = (e: React.ChangeEvent<HTMLInputElement>, newgender: genderValues) => {
         dispatch(pageChanged(1));
-        if (!e.target.checked) dispatch(sexFilterUpdate("any"))
-        else dispatch(sexFilterUpdate(newSex));
+        if (!e.target.checked) dispatch(genderFilterUpdate("any"))
+        else dispatch(genderFilterUpdate(newgender));
     }
 
     return (
@@ -21,9 +21,9 @@ const GenderFilter:React.FC = () => {
             <div className="filter-checkbox">
                 <input 
                     type="checkbox" 
-                    checked={sex === "male"} 
+                    checked={gender === "male"} 
                     id="male"
-                    onChange={(e) => {handleChangeSex(e, "male")}} 
+                    onChange={(e) => {handleChangegender(e, "male")}} 
                 />
                 <label htmlFor="male" >male</label>
             </div>
@@ -31,9 +31,9 @@ const GenderFilter:React.FC = () => {
             <div className="filter-checkbox">
                 <input 
                     type="checkbox" 
-                    checked={sex === "female"} 
+                    checked={gender === "female"} 
                     id="female"
-                    onChange={(e) => {handleChangeSex(e, "female")}} 
+                    onChange={(e) => {handleChangegender(e, "female")}} 
                 />
                 <label htmlFor="female" >female</label>
             </div>

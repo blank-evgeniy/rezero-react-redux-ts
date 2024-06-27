@@ -2,7 +2,7 @@
 export default interface ICharacter {
     id: number;
     name: string;
-    sex: string;
+    gender: string;
     race: string;
     img: string;
 }

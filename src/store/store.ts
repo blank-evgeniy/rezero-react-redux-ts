@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import charactersSlice from "./reducers/charactersSlice";
+import charactersSlice from "./reducers/pageSlice";
 import filterSlice from "./reducers/filterSlice";
 
 const store = configureStore({
     reducer: {
-        characters: charactersSlice,
+        page: charactersSlice,
         filter: filterSlice,
     }
 })

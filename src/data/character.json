@@ -2,126 +2,126 @@
     {
         "id": 1,
         "name": "Subaru",
-        "sex": "male",
+        "gender": "male",
         "race": "human",
         "img": "Subaru.jpg"
     },
     {
         "id": 2,
         "name": "Rem",
-        "sex": "female",
+        "gender": "female",
         "race": "oni",
         "img": "Rem.jpg"
     },
     {
         "id": 3,
         "name": "Ram",
-        "sex": "female",
+        "gender": "female",
         "race": "oni",
         "img": "Ram.jpg"
     },
     {
         "id": 4,
         "name": "Emilia",
-        "sex": "female",
+        "gender": "female",
         "race": "half-elf",
         "img": "Emilia.jpg"
     },
     {
         "id": 5,
         "name": "Beatrice",
-        "sex": "female",
+        "gender": "female",
         "race": "spirit",
         "img": "Beatrice.jpg"
     },
     {
         "id": 6,
         "name": "Roswaal",
-        "sex": "male",
+        "gender": "male",
         "race": "human",
         "img": "Roswaal.jpg"
     },
     {
         "id": 7,
         "name": "Elsa ",
-        "sex": "female",
+        "gender": "female",
         "race": "human",
         "img": "Elsa.jpg"
     },
     {
         "id": 8,
         "name": "Petelgeuse",
-        "sex": "male",
+        "gender": "male",
         "race": "spirit",
         "img": "Betelgeuse.jpg"
     },
     {
         "id": 9,
         "name": "Anastasia",
-        "sex": "female",
+        "gender": "female",
         "race": "human",
         "img": "Anastasia.jpg"
     },
     {
         "id": 10,
         "name": "Priscilla",
-        "sex": "female",
+        "gender": "female",
         "race": "human",
         "img": "Priscilla.jpg"
     },
     {
         "id": 11,
         "name": "Reinhard",
-        "sex": "male",
+        "gender": "male",
         "race": "human",
         "img": "Handsome.jpg"
     },
     {
         "id": 12,
         "name": "Otto",
-        "sex": "male",
+        "gender": "male",
         "race": "human",
         "img": "Otto.jpg"
     },
     {
         "id": 13,
         "name": "Frederica",
-        "sex": "female",
+        "gender": "female",
         "race": "beast human",
         "img": "Frederica.jpg"
     },
     {
         "id": 14,
         "name": "Puck",
-        "sex": "female",
+        "gender": "female",
         "race": "spirit",
         "img": "Puck.jpg"
     },
     {
         "id": 15,
         "name": "Garfiel",
-        "sex": "male",
+        "gender": "male",
         "race": "beast human",
         "img": "Garfiel.jpg"
     },
     {
         "id": 16,
         "name": "Pandora",
-        "sex": "female",
+        "gender": "female",
         "race": "unknown",
         "img": "Pandora.jpg"
     },
     {
         "id": 17,
         "name": "Julius",
-        "sex": "male",
+        "gender": "male",
         "race": "human",
         "img": "Julius.jpg"
     },
     {
         "id": 18,
         "name": "Felt",
-        "sex": "female",
+        "gender": "female",
         "race": "human",
         "img": "Felt.jpg"
     }

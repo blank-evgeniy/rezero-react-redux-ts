@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import CharactersData from '../../data/character.json';
 import { useAppDispatch, useAppSelector } from '../../hooks/redux';
 import { filterSlice } from '../../store/reducers/filterSlice';
-import { charactersSlice } from '../../store/reducers/charactersSlice';
+import { pageSlice } from '../../store/reducers/pageSlice';
 
 const RacesFilter: React.FC = () => {
     const [racesList, setRacesList] = useState<string[]>([]);
@@ -10,7 +10,7 @@ const RacesFilter: React.FC = () => {
     const dispatch = useAppDispatch();
     const {races} = useAppSelector( state => state.filter);
     const {raceFilterUpdate} = filterSlice.actions;
-    const {pageChanged} = charactersSlice.actions;
+    const {pageChanged} = pageSlice.actions;
 
     useEffect( () => {
         setRacesList(getRacesList);

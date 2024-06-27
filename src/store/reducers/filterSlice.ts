@@ -1,16 +1,16 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 
-export type sexValues = "any" | "male" | "female";
+export type genderValues = "any" | "male" | "female";
 
 interface FilterState {
     search: string,
-    sex: sexValues,
+    gender: genderValues,
     races: string[],
 }
 
 const initialState: FilterState = {
     search: "",
-    sex: "any",
+    gender: "any",
     races: [],
 }
 
@@ -21,8 +21,8 @@ export const filterSlice = createSlice({
         searhFilterUpdate(state, action: PayloadAction<string>){
             state.search = action.payload;
         },
-        sexFilterUpdate(state, action: PayloadAction<"any" | "male" | "female">){
-            state.sex = action.payload;
+        genderFilterUpdate(state, action: PayloadAction<"any" | "male" | "female">){
+            state.gender = action.payload;
         },
         raceFilterUpdate(state, action: PayloadAction<string[]>){
             state.races = action.payload;
