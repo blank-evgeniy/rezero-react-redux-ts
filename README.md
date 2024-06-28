@@ -1,6 +1,6 @@
 My pet project with the stack:  
 <b>
-TypeScript
+TypeScript  
 SCSS  
 React  
 React Router v6  
