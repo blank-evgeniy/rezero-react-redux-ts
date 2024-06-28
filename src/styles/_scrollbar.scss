@@ -1,0 +1,22 @@
+@import "vars.scss";
+
+html {
+    overflow-y:scroll;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: $color-secondary $color-primary;
+  }
+  
+*::-webkit-scrollbar {
+    height: 12px;
+    width: 6px;
+}
+*::-webkit-scrollbar-track {
+    background: $color-primary;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: $color-secondary;
+    border-radius: 5px;
+}
